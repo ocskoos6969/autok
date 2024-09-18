@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background-image: url('hero-car.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #ff6200;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #ff4500;
+}
+
+.autok {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.autok h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.kiallitott-autok {
+    display: flex;
+    justify-content: space-around;
+}
+
+.auto-kartyak {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    transition: transform 0.3s;
+}
+
+.auto-kartyak img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.auto-kartyak h3 {
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.auto-kartyak p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+.auto-kartyak:hover {
+    transform: scale(1.05);
+}
+
+.rolunk {
+    padding: 50px;
+    text-align: center;
+}
+
+.rolunk h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.rolunk p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.rolunk ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.rolunk ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact {
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-urlap {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-urlap label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.contact-urlap input,
+.contact-urlap textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
